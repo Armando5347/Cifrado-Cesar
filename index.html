@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cifado Cesar</title>
+        <link href="css/extilos.css" rel="stylesheet"/>
+        <script src="js/logica.js"></script>
+        <script src="js/validacion.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Cifrado Cesar</h1>
+        </header>
+            <div class="enmedio">
+                <textarea id="cadena" placeholder="Texto a codificar/decifrar" onchange="return verTexto()"></textarea>
+                <br>
+                <div class="menu_opciones">
+                    <input type="button" value="Cifrar" onclick="codificar()"/>
+                    <input type="button" value="Decifrar" onclick="decodificar()"/>
+                    <div class='espacio'></div> Avance: <input type='number' id='avance' placeholder="Avance" onchange="return verNumero()">
+                </div>
+                <br>
+                <textarea id="resultado" readonly="readonly" placeholder="Resultado codificado/decodificado"></textarea>
+            </div>
+    </body>
+</html>

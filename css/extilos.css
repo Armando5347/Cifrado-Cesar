@@ -1,0 +1,49 @@
+.menu_opciones{
+    display: inline;
+    margin: auto;
+    align-items: center;
+    
+}
+body{
+    background-color: gray;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    align-items: center;
+    display:inline-block;
+}
+main{
+    margin: 10%;
+}
+h1{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+header{
+    width: 100%;
+}
+
+.espacio{
+    width: 10%;
+}
+input,textarea{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 1.5em;
+}
+input{
+    width: 20%;
+}
+textarea{
+    width: 78%;
+    height: 6em;
+}
+.enmedio{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+}
