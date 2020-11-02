@@ -13,6 +13,7 @@ function verTexto() {
         }
         if(!is_letra){
             alert("En este campo solo se aceptan letras sin acentos ni otro tipo de caracter especial")
+            document.getElementById("cadena").value = "";
             return false;
         };
     }
@@ -33,6 +34,7 @@ function verNumero() {
         }
         if(!is_num){
             alert("Aquí solo se aceptan números naturales")
+            document.getElementById("avance").value = 0 ;
             return false;
         }
     }
