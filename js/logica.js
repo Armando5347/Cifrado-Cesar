@@ -80,6 +80,7 @@ function codificar(){
         avance = document.getElementById("avance").value;
     }catch{
         alert("Ingreso invalido del avance");
+        document.getElementById("avance").value = 0;
         return;
     }
     document.getElementById("resultado").value =
@@ -91,6 +92,7 @@ function decodificar(){
     let avance = 0;
     try{
         avance = document.getElementById("avance").value;
+        document.getElementById("avance") = 0;
     }catch{
         alert("Ingreso invalido del avance");
         return;
